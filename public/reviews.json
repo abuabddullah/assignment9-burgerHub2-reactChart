@@ -1,0 +1,44 @@
+[
+    {
+      "id": "6249ee8c373bdfed4f3293a4",
+      "name": "Moran Mcdonald",
+      "review": "Labore labore dolore est ipsum amet nisi pariatur veniam occaecat nostrud est eiusmod culpa dolore. Voluptate ullamco aute nisi laborum cillum tempor qui nostrud incididunt qui cupidatat dolor et. Amet dolore ipsum est aliquip officia proident quis ad. Esse laboris culpa ut exercitation commodo magna quis ut.\r\n",
+      "rating": 4,
+      "picture": "./resources/customer1.jpg"
+    },
+    {
+      "id": "6249ee8c388059631e58cb6f",
+      "name": "Silva Franks",
+      "review": "Ea enim consequat fugiat pariatur eu incididunt ullamco magna. Aliquip est do amet laborum nostrud quis eu eiusmod pariatur. Duis pariatur sunt cillum labore quis sit non est. Consequat cupidatat ex ad duis laborum et.\r\n",
+      "rating": 1,
+      "picture": "./resources/customer2.jpg"
+    },
+    {
+      "id": "6249ee8c1eaf57862585ddb7",
+      "name": "Myra Garner",
+      "review": "Mollit sunt deserunt enim in ad officia excepteur excepteur cillum. Aliqua Lorem est laboris cupidatat. Adipisicing laboris velit velit incididunt non consectetur. Ipsum amet eu nulla velit aliquip tempor commodo dolore esse et. Culpa magna id consequat pariatur sit nostrud aliqua voluptate laboris tempor sit cupidatat. Duis irure adipisicing et cupidatat mollit occaecat tempor sunt duis tempor.\r\n",
+      "rating": 4,
+      "picture": "./resources/customer3.jpg"
+    },
+    {
+      "id": "6249ee8ccd1ed58dfb7886a5",
+      "name": "Graciela Neal",
+      "review": "Duis occaecat ad occaecat eiusmod pariatur veniam deserunt veniam ipsum elit ullamco. Pariatur minim culpa eiusmod officia occaecat cillum ut. Ipsum dolore deserunt laborum ipsum est id. Laborum sit occaecat aute cupidatat sint laborum. Ullamco sunt laboris eiusmod velit anim et commodo elit et incididunt occaecat. Esse tempor ex culpa occaecat velit. Velit nostrud adipisicing in non labore.\r\n",
+      "rating": 3,
+      "picture": "./resources/customer4.jpg"
+    },
+    {
+      "id": "6249ee8c12c04ce433643c28",
+      "name": "Dennis Kent",
+      "review": "Non in culpa nisi reprehenderit consequat sint esse anim officia magna ullamco. Nulla pariatur incididunt reprehenderit velit deserunt do aliquip laborum voluptate sit quis fugiat. Reprehenderit laborum non et sunt ullamco enim commodo proident mollit labore pariatur. Nisi consectetur voluptate sit pariatur anim consectetur ipsum excepteur. Id sint nostrud voluptate irure do amet elit deserunt enim.\r\n",
+      "rating": 4,
+      "picture": "./resources/customer5.jpg"
+    },
+    {
+      "id": "6249ee8c42498af4b415d58e",
+      "name": "Stacie Ball",
+      "review": "Aute reprehenderit tempor id excepteur cillum. Et nostrud sint voluptate exercitation amet aliquip reprehenderit culpa sunt ex. Reprehenderit amet nisi labore ad veniam mollit labore nulla cupidatat do pariatur. Excepteur mollit amet ex exercitation anim est occaecat. Et officia veniam proident cupidatat veniam pariatur labore nisi do. Nulla tempor laborum deserunt tempor excepteur cillum ea. Pariatur nostrud incididunt mollit esse occaecat amet aliqua eiusmod commodo nostrud.\r\n",
+      "rating": 3,
+      "picture": "./resources/customer6.jpg"
+    }
+  ]
