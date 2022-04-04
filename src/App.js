@@ -1,12 +1,16 @@
 import { createContext } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './components/About/About';
+import Blogs from './components/Blogs/Blogs';
 import useReviews from './components/customHooks/useReviews/useReviews';
+import Dashboard from './components/Dashboard/Dashboard';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import NavigationBar from './components/NavigationBar/NavigationBar';
 import NotFound from './components/NotFound/NotFound';
 import Reviews from './components/Reviews/Reviews';
+
 
 export const ReviewsContext = createContext()
 

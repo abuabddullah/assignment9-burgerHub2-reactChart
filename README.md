@@ -1,7 +1,7 @@
 # Welcome to **Your Choosed Burgers**
 
-Project Repo Link: [https://github.com/Programming-Hero-Web-Course4/lucky-one-abuabddullah](https://github.com/Programming-Hero-Web-Course4/lucky-one-abuabddullah) \
-Live Sire link: [https://myassignment8.netlify.app/](https://myassignment8.netlify.app/) 
+Project Repo Link: [https://github.com/programming-hero-web-course-4/product-analysis-website-abuabddullah](https://github.com/programming-hero-web-course-4/product-analysis-website-abuabddullah) \
+Live Sire link: [https://myassignment9.netlify.app/](https://myassignment9.netlify.app/) 
 
 
 

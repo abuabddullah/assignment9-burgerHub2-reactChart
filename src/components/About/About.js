@@ -1,27 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const NotFound = () => {
+const About = () => {
     return (
-        <section className='m-20'>
-            <div className="container max-w-7xl mx-auto p-5 grid grid-cols-1 md:grid-cols-2 gap-8">
-
-                <article className='flex flex-col justify-center'>
-
-                    <h1 className="text-7xl font-bold text-yellow-400 text-center">
-                        404 ! <br />
-                        Not Found
-                    </h1>
-
-
-                </article>
-
-                <div className='flex justify-center md:justify-end hidden md:block'>
-                    <img src="./../../resources/error.jpg" alt="notfound" width={400} className="rounded-3xl max-w-full" />
-                </div>
+        <section className='p-20'>
+            <div className='flex justify-center'>
+                <img src="./../../resources/burgerBanner.jpg" alt="Burger's Hub" className='max-w-full rounded-full' />
             </div>
 
 
+            <div className='text-center mt-20'>
+
+                <h1 className="text-5xl font-bold mb-4">
+                    Burger's Hub
+                </h1>
+
+                <address>
+                    Mail : <a href="mailto:burgershub@phero.com" className='text-yellow-400'>Burger's Hub</a>. <br />
+                    Visit us at : Level-4, 34, Awal Centre, Banani, Dhaka <br />
+                    Bangladesh
+                </address>
+
+            </div>
 
 
             <div className='text-center mt-10'>
@@ -32,9 +32,8 @@ const NotFound = () => {
                 </Link>
             </div>
 
-
         </section>
     );
 };
 
-export default NotFound;
+export default About;
