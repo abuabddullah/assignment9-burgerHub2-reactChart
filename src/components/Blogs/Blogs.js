@@ -74,49 +74,21 @@ const Blogs = () => {
                         <tbody>
                             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                                    Apple MacBook Pro 17"
+                                    Definition
                                 </th>
                                 <td className="px-6 py-4">
-                                    Sliver
+                                    This elements just takes its content range to be set in and dont take any space like margin,padding,new line from the page.
                                 </td>
                                 <td className="px-6 py-4">
-                                    Laptop
+                                    
+                                This elements is totally oposite of <strong>inline elements</strong> its full range to be set in and also take space like margin,padding,new line from the page.
                                 </td>
                                 <td className="px-6 py-4">
-                                    Laptop
+                                inline-block elements takes its content range to be set in but we can adjust its space like margin,padding,new line from the page.
                                 </td>
                                 
                             </tr>
-                            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                                    Microsoft Surface Pro
-                                </th>
-                                <td className="px-6 py-4">
-                                    White
-                                </td>
-                                <td className="px-6 py-4">
-                                    Laptop PC
-                                </td>
-                                <td className="px-6 py-4">
-                                    Laptop PC
-                                </td>
-                                
-                            </tr>
-                            <tr className="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                                    Magic Mouse 2
-                                </th>
-                                <td className="px-6 py-4">
-                                    Black
-                                </td>
-                                <td className="px-6 py-4">
-                                    Accessories
-                                </td>
-                                <td className="px-6 py-4">
-                                    Accessories
-                                </td>
-                                
-                            </tr>
+                            
                         </tbody>
                     </table>
                 </div>
