@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import NavigationBar from './components/NavigationBar/NavigationBar';
 import NotFound from './components/NotFound/NotFound';
+import Review from './components/Review/Review';
 import Reviews from './components/Reviews/Reviews';
 
 
@@ -29,7 +30,9 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/reviews" element={<Reviews />} />
 
-
+        <Route path='/review' element={<Review />} >
+          {/* <Route path=':id' element={<SingleReviewDetail />} /> */}
+        </Route>
 
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/blogs" element={<Blogs />} />

@@ -48,7 +48,7 @@ Live Sire link: [https://myassignment9.netlify.app/](https://myassignment9.netli
 
                 => context API কি জিনিস ?perpose
                 => symantic tags কি ?
-                => inline-block-inlineBlock elements এররা কি ?
+                => inline-inlineBlock-block elements এররা কি ?
                     
 
 

@@ -13,7 +13,7 @@ const NavigationBar = () => {
             <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
                 <div className="flex items-center justify-between">
                     <div>
-                        <Link className="text-2xl font-bold text-gray-800 transition-colors duration-200 transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" to="/">Burger's Hub</Link>
+                        <Link className="text-2xl font-bold text-gray-800 transition-colors duration-200 transform dark:text-white lg:text-3xl hover:text-yellow-400 dark:hover:text-yellow-500" to="/">Burger's Hub</Link>
                     </div>
 
                     {/* <!-- Mobile menu button --> */}
