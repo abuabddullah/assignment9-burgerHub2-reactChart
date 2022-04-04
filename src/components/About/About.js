@@ -14,12 +14,20 @@ const About = () => {
                 <h1 className="text-5xl font-bold mb-4">
                     Burger's Hub
                 </h1>
+                <p className='my-10'><strong>
+                    Every day, huge ammount of guests visit Burger's Hub restaurants around Bangladesh. And they do so because our restaurants are known for serving high-quality, great-tasting, and affordable food. Founded in 2022, Burger's Hub is the third largest fast food hamburger chain in Bangladesh. The original Home of the Whopper, our commitment to premium ingredients, signature recipes, and family-friendly dining experiences is what has defined our brand for more than 2 months.
+                </strong></p>
 
-                <address>
-                    Mail : <a href="mailto:burgershub@phero.com" className='text-yellow-400'>Burger's Hub</a>. <br />
-                    Visit us at : Level-4, 34, Awal Centre, Banani, Dhaka <br />
-                    Bangladesh
-                </address>
+                <div className='mt-14'>
+                    <h1 className="text-3xl font-bold mb-4">
+                        Contact Us
+                    </h1>
+                    <address>
+                        Mail : <a href="mailto:burgershub@phero.com" className='text-yellow-400'>Burger's Hub</a>. <br />
+                        Visit us at : Level-4, 34, Awal Centre, Banani, Dhaka <br />
+                        Bangladesh
+                    </address>
+                </div>
 
             </div>
 
