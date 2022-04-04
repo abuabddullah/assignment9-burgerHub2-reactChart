@@ -39,10 +39,10 @@ const Dashboard = () => {
 
                 <div className="p-10 flex flex-col justify-center items-center">
 
-                    <ResponsiveContainer width="100%" height="100%">
-                        <BarChart
+                    <ResponsiveContainer 
                             width={400}
-                            height={300}
+                            height={300}>
+                        <BarChart
                             data={datas}
                             margin={{
                                 top: 20,
@@ -66,7 +66,8 @@ const Dashboard = () => {
 
                     <code className='my-4'>fig : monthly sales,investment,revenue statistics</code>
                 </div>
-                
+                <div className="p-10"></div>
+                <div className="p-10"></div>
             </div>
 
 

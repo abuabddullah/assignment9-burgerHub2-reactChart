@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
-        <section className='p-20'>
+        <section className='p-20 container mx-auto max-w-7xl'>
             <div className='flex justify-center'>
                 <img src="./../../resources/burgerBanner.jpg" alt="Burger's Hub" className='max-w-full rounded-full' />
             </div>
