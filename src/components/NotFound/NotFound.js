@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        <section className='m-20'>
+        <section className='md:m-20'>
             <div className="container max-w-7xl mx-auto p-5 grid grid-cols-1 md:grid-cols-2 gap-8">
 
                 <article className='flex flex-col justify-center'>
 
-                    <h1 className="text-7xl font-bold text-yellow-400 text-center">
+                    <h1 className="text-5xl md:text-7xl font-bold text-yellow-400 text-center">
                         404 ! <br />
                         Not Found
                     </h1>
@@ -35,7 +35,7 @@ const NotFound = () => {
 
 
 
-            <div className='text-center mt-10'>
+            <div className='text-center my-10'>
 
                 <Link to="/home" className="rounded-full inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
                     Go Back to Home

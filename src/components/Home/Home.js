@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <>
-            <section className='m-20'>
+            <section className='md:m-20'>
                 <div className="container max-w-7xl mx-auto p-5 grid grid-cols-1 md:grid-cols-2 gap-8">
 
                     <article className='flex flex-col justify-center order-2 md:order-1'>

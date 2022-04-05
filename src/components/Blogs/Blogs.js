@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Blogs = () => {
     return (
         <section>
-            <div className='p-10 md:p-20 container mx-auto max-w-7xl'>
+            <div className='p-5 md:p-20 container mx-auto max-w-7xl'>
 
                 <h1 className="text-5xl font-bold text-center text-yellow-400 mb-10">
                     <span className='border-b-4 border-yellow-400'>Q & A </span>
