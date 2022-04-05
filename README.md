@@ -63,7 +63,7 @@ Live Sire link: [https://myassignment9.netlify.app/](https://myassignment9.netli
 
 ### [#] Optional requirements:
 **_1) responsive করা_** \
-[ NOT DONE ] \
+[  DONE ] \
 **_2) Custom Active Link use করা_** \
 [  DONE ] \
 **_3) extra routes add করা_** \
