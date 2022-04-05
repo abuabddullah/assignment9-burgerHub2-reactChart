@@ -38,7 +38,7 @@ const Dashboard = () => {
 
 
                 <figure className='my-20 flex flex-col justify-center items-center'>
-                    <BarChart width={ screenWidth <= 768? 375 : 500} height={250} data={datas}>
+                    <BarChart width={ screenWidth <= 768? 300 : 500} height={250} data={datas}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />
@@ -53,7 +53,7 @@ const Dashboard = () => {
 
 
                 <figure className='my-20 flex flex-col justify-center items-center'>
-                    <LineChart width={ screenWidth <= 768? 375 : 500} height={250} data={datas}
+                    <LineChart width={ screenWidth <= 768? 300 : 500} height={250} data={datas}
                         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
@@ -68,7 +68,7 @@ const Dashboard = () => {
                 </figure>
 
                 <figure className='my-20 flex flex-col justify-center items-center'>
-                    <ComposedChart width={ screenWidth <= 768? 375 : 500} height={250} data={datas}>
+                    <ComposedChart width={ screenWidth <= 768? 300 : 500} height={250} data={datas}>
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
