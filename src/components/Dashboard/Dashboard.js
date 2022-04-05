@@ -22,12 +22,12 @@ const Dashboard = () => {
             <div className='mx-auto container max-w-7xl p-5 md:p-20'>
 
 
-                <h1 className="text-5xl font-bold text-center text-yellow-400 mb-10">
+                <h1 className="text-5xl font-bold text-center text-yellow-400 my-10">
                     <span className='border-b-4 border-yellow-400'>Dashboard </span>
                 </h1>
 
 
-                <section className='my-20 flex justify-center'>
+                <figure className='my-20 flex flex-col justify-center items-center'>
                     <BarChart width={730} height={250} data={datas}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
@@ -38,10 +38,11 @@ const Dashboard = () => {
                         <Bar dataKey="revenue" fill="#82ca9d" />
                         <Bar dataKey="sell" fill="#000000" />
                     </BarChart>
-                </section>
+                    <figcaption className="mb-10 mt-4">fig : Barchart for monthly investment,revenue and sell</figcaption>
+                </figure>
 
 
-                <section className='my-20 flex justify-center'>
+                <figure className='my-20 flex flex-col justify-center items-center'>
                     <LineChart width={730} height={250} data={datas}
                         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                         <CartesianGrid strokeDasharray="3 3" />
@@ -53,9 +54,10 @@ const Dashboard = () => {
                         <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
                         <Line type="monotone" dataKey="sell" stroke="#000000" />
                     </LineChart>
-                </section>
+                    <figcaption className="mb-10 mt-4">fig : LineChart for monthly investment,revenue and sell</figcaption>
+                </figure>
 
-                <section className='my-20 flex justify-center'>
+                <figure className='my-20 flex flex-col justify-center items-center'>
                     <ComposedChart width={730} height={250} data={datas}>
                         <XAxis dataKey="month" />
                         <YAxis />
@@ -66,7 +68,8 @@ const Dashboard = () => {
                         <Bar dataKey="revenue" barSize={20} fill="#413ea0" />
                         <Line type="monotone" dataKey="sell" stroke="#ff7300" />
                     </ComposedChart>
-                </section>
+                    <figcaption className="mb-10 mt-4">fig : ComposedChart for monthly investment,revenue and sell</figcaption>
+                </figure>
 
 
                 <div className='text-center my-10'>

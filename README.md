@@ -5,6 +5,14 @@ Live Sire link: [https://myassignment9.netlify.app/](https://myassignment9.netli
 
 
 
+## Projects summary:
+* To Explore About Burger's Hub : Customer's feedback, Reviews, Contact, About
+* To Learn About Some Basic of HTML and React
+* To Explore the Monthly investment,revenue and sell
+* To Know How to apply React-router in a project
+
+
+
 ## Projects requirements
 
 ### [#] compulsory requirements:
@@ -34,9 +42,9 @@ Live Sire link: [https://myassignment9.netlify.app/](https://myassignment9.netli
 **_1) github এর readme.md file টাতে ProjectName+repo+liveLink দিতে হুবে_** \
 [  DONE ] \
 **_2) 4টা bullet point দিয়ে project summary লিখতে হবে_** \
-[ NOT DONE ] \
+[  DONE ] \
 **_3) destructuring us করতে হবে_** : [module 47-1] \
-[ NOT DONE ] \
+[  DONE ] \
 **_4) fileName,componentName,variableName every thing meaning full হতে হবে _** \
 [  DONE ] \
 **_5) custom Hook use করে Home page and Review page এর reviews গুলাকে generate করতে হবে আলাদা আলাদা করা যাবে না_** \
